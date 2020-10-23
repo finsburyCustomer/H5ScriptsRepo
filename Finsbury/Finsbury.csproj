@@ -31,6 +31,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="H5MWS060B_MMS105E.ts" />
+    <TypeScriptCompile Include="H5MWS060B_MMS177A.ts" />
+    <TypeScriptCompile Include="H5MWS060B_PrintLbl.ts" />
+    <TypeScriptCompile Include="H5PMS100B_PMS050A - Orig.ts" />
+    <TypeScriptCompile Include="H5PMS100B_PMS050A.ts" />
+    <TypeScriptCompile Include="H5PMS100B_PMS060A - Orig.ts" />
+    <TypeScriptCompile Include="H5PMS100B_PMS060A.ts" />
+    <TypeScriptCompile Include="H5PMS100B_PMS070A - Orig.ts" />
+    <TypeScriptCompile Include="H5PMS100B_PMS070A.ts" />
+    <TypeScriptCompile Include="H5PPS220B_PPS300E.ts" />
+    <TypeScriptCompile Include="PPS300_POContainerMod.ts" />
+    <TypeScriptCompile Include="ReasonCodeLaunchLevel2.ts" />
     <TypeScriptCompile Include="typings\es6-promise.d.ts" />
     <TypeScriptCompile Include="typings\h5.script.d.ts" />
     <TypeScriptCompile Include="typings\infor.controls.d.ts" />
