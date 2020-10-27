@@ -189,10 +189,11 @@ var PPS300_POContainerMod = /** @class */ (function () {
             this.controller.ShowMessage("Received qty must be a number");
             return;
         }
+        debugger;
         // Received qty must have correct number of decimal places
         if (this.RVQA.indexOf(".") >= 0) {
             var decs = this.RVQA.split(this.DCFM)[1].length;
-            if (parseInt(this.DCCD) > decs) {
+            if (decs > parseInt(this.DCCD)) {
                 this.controller.ShowMessage("Received qty has too many decimal places");
                 return;
             }
