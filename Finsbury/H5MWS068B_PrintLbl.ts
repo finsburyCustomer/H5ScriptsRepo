@@ -60,7 +60,7 @@ class H5MWS068B_PrintLbl {
         }
 
         // Add the button to panel
-        var top = 5;
+        var top = 9;
         var left = (ScriptUtil.FindChild($(".lawsonHost:visible"), "contentBody").width() / 2 - 3) / 10;
         var eid = "h5btn_movecontainer" + Math.floor(Math.random() * 10000);
         const buttonElement = new ButtonElement();
