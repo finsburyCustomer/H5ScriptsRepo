@@ -32,6 +32,8 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="H5MWS060B_MMS105E.ts" />
+    <TypeScriptCompile Include="H5MWS068B_PrintLbl.ts" />
+    <TypeScriptCompile Include="H5MWS068B_MMS177A.ts" />
     <TypeScriptCompile Include="H5MWS060B_MMS177A.ts" />
     <TypeScriptCompile Include="H5MWS060B_PrintLbl.ts" />
     <TypeScriptCompile Include="H5PMS100B_PMS050A - Orig.ts" />
